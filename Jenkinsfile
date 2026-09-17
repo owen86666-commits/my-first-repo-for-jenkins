@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('first-jenkins-msg') {
       steps {
         echo 'my first jenkins msg'
       }
