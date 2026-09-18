@@ -11,7 +11,9 @@ pipeline {
 
         stage('shell') {
           steps {
-            sh 'pwd'
+            sh '''pwd
+
+echo \'show pwd\''''
           }
         }
 
